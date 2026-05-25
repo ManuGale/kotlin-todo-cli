@@ -2,6 +2,14 @@
 
 To-Do CLI - Gestor de tareas por consola. Permite agregar, listar, marcar como completada y eliminar tareas. Rápido, simple y sin dependencias externas. Ideal para usar desde la terminal. Datos persistentes en JSON. Escrito en Kotlin.
 
+# Reglas del proyecto
+
+- Trabajar en ramas
+- No hacer push directo a main
+- Hacer commits descriptivos
+- Mantener código limpio
+- Probar antes de subir cambios
+
 # Requisitos
 
 ## 1. Java JDK
@@ -52,5 +60,11 @@ Abrir en VSCode:
 ```bash
 code .
 ```
+
+---
+
+# Compilar proyecto
+
+kotlinc src -include-runtime -d todo.jar
 
 ---
