@@ -33,7 +33,24 @@ Descargar:
 
 https://github.com/JetBrains/kotlin/releases
 
+Al descargar este zip que esta en un repositorio llevalo a la carpeta C y descomprimelo y te debe quedar en la carpeta C de tu disco local
+![Archivo](imagnes/archivokotlin.png)
+
 Agregar Kotlin al PATH del sistema.
+
+Para ingresar debes buscar en el bucador de Windows, ya sea escribiendo
+_path_ o _editar variables de entorno de sistema_
+
+![Busqueda](imagnes/buscadorpath.png)
+
+Se abrira una ventana que es _Propiedades del sistema_ cuando ingreses
+Haz click en Variables de entorno  
+![Variables](imagnes/variables.png)
+
+En el apartado Variables del sistema buscar _PATH_ y darle doble clik
+y en el boton agregar agrega C:\kotlin\bin
+y guardar
+![Guardado](imagnes/guardadokotlin.png)
 
 Verificar:
 
