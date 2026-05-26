@@ -39,4 +39,20 @@ class TareaService {
             println("-------------------")
         }
     }
+
+    fun completarTarea(id: Int) {
+
+        val tarea = tareas.find { it.id == id }
+
+        if (tarea != null) {
+
+            tarea.marcarCompletada()
+
+            archivoService.guardarTareas(tareas)
+
+            println("Tarea completada")
+        } else {
+            println("Tarea no encontrada")
+        }
+    }
 }
