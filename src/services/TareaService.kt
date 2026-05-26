@@ -26,4 +26,17 @@ class TareaService {
 
         println("Tarea agregada correctamente")
     }
+
+    fun listarTareas() {
+
+        if (tareas.isEmpty()) {
+            println("No hay tareas registradas")
+            return
+        }
+
+        tareas.forEach {
+            println(it)
+            println("-------------------")
+        }
+    }
 }
