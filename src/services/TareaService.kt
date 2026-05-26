@@ -55,4 +55,18 @@ class TareaService {
             println("Tarea no encontrada")
         }
     }
+
+    fun eliminarTarea(id: Int) {
+
+        val eliminada = tareas.removeIf { it.id == id }
+
+        if (eliminada) {
+
+            archivoService.guardarTareas(tareas)
+
+            println("Tarea eliminada")
+        } else {
+            println("No se encontró la tarea")
+        }
+    }
 }
