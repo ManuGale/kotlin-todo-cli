@@ -7,6 +7,11 @@ data class Tarea(
     var completada: Boolean = false
 ) { 
 
+    fun marcarCompletada() {
+        completada = true
+    }
 
-    
+    override fun toString(): String {
+       
+    }
 }
