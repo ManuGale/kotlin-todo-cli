@@ -27,6 +27,10 @@ class ArchivoService {
 
         val tareas = mutableListOf<Tarea>()
 
+        if (!archivo.exists()) {
+            archivo.createNewFile()
+        }
+
         archivo.forEachLine { linea ->
 
             val datos = linea.split(",")
