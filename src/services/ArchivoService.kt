@@ -30,6 +30,18 @@ class ArchivoService {
         archivo.forEachLine { linea ->
 
             val datos = linea.split(",")
+
+            if (datos.size == 4) {
+
+                tareas.add(
+                    Tarea(
+                        datos[0].toInt(),
+                        datos[1],
+                        datos[2],
+                        datos[3].toBoolean()
+                    )
+                )
+            }
         }
 
         return tareas
