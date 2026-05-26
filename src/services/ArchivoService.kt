@@ -22,4 +22,16 @@ class ArchivoService {
             }
         }
     }
+
+    fun cargarTareas(): MutableList<Tarea> {
+
+        val tareas = mutableListOf<Tarea>()
+
+        archivo.forEachLine { linea ->
+
+            val datos = linea.split(",")
+        }
+
+        return tareas
+    }
 }
