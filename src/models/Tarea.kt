@@ -12,6 +12,11 @@ data class Tarea(
     }
 
     override fun toString(): String {
-       
+        return """
+            ID: $id
+            Titulo: $titulo
+            Descripcion: $descripcion
+            Estado: ${if (completada) "Completada" else "Pendiente"}
+        """.trimIndent()
     }
 }
