@@ -34,6 +34,17 @@ Proyecto académico orientado al uso de:
 
 ---
 
+# Clonar
+
+```bash
+# Clonar
+git clone [https://github.com/ManuGale/kotlin-todo-cli.git](https://github.com/ManuGale/kotlin-todo-cli.git)
+cd kotlin-todo-cli
+
+```
+
+---
+
 # Estructura del proyecto
 
 ```txt
@@ -172,20 +183,14 @@ kotlinc -version
 
 ---
 
-# Clonar y Compilar
-
-````bash
-# Clonar
-git clone [https://github.com/ManuGale/kotlin-todo-cli.git](https://github.com/ManuGale/kotlin-todo-cli.git)
-cd kotlin-todo-cli
-
+# Compilar
 
 ```bash
 
 # Compilar
 
 kotlinc src -include-runtime -d todo.jar
-````
+```
 
 # Ejecutar proyecto
 
