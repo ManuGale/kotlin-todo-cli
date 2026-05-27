@@ -72,8 +72,6 @@ src/
 
 ## 1. Java JDK
 
-<<<<<<< HEAD
-
 ### Descargar
 
 ```txt
@@ -88,8 +86,6 @@ javac -version
 ```
 
 ## 2. Kotlin Compiler
-
-<<<<<<< HEAD
 
 ### Descargar
 
@@ -123,9 +119,7 @@ Editar las variables de entorno del sistema
 
 ## Captura de búsqueda
 
-```md
 ![Busqueda](imagnes/buscadorpath.png)
-```
 
 ---
 
@@ -138,9 +132,7 @@ Variables de entorno
 
 ## Captura de variables
 
-```md
 ![Variables](imagnes/variables.png)
-```
 
 ---
 
@@ -166,9 +158,7 @@ C:\kotlin\bin
 
 ## Captura de PATH
 
-```md
 ![Guardado](imagnes/guardadokotlin.png)
-```
 
 ---
 
@@ -197,19 +187,11 @@ cd kotlin-todo-cli
 kotlinc src -include-runtime -d todo.jar
 ````
 
-# Ejecutar
-
-java -jar todo.jar
-
-````
-
----
-
 # Ejecutar proyecto
 
 ```bash
 java -jar todo.jar
-````
+```
 
 ---
 
