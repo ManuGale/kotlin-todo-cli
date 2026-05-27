@@ -4,6 +4,8 @@ Aplicación de consola desarrollada en Kotlin para gestionar tareas desde termin
 
 ## Funcionalidades
 
+Permite:
+
 - Agregar tareas
 - Listar tareas
 - Marcar tareas como completadas
@@ -70,6 +72,8 @@ src/
 
 ## 1. Java JDK
 
+<<<<<<< HEAD
+
 ### Descargar
 
 ```txt
@@ -83,9 +87,9 @@ java -version
 javac -version
 ```
 
----
-
 ## 2. Kotlin Compiler
+
+<<<<<<< HEAD
 
 ### Descargar
 
@@ -170,37 +174,34 @@ C:\kotlin\bin
 
 # Verificar instalación de Kotlin
 
+Verificar:
+
 ```bash
 kotlinc -version
 ```
 
 ---
 
-# Clonar el repositorio
+# Clonar y Compilar
 
-```bash
-git clone https://github.com/ManuGale/kotlin-todo-cli.git
-```
-
-Entrar a la carpeta:
-
-```bash
+````bash
+# Clonar
+git clone [https://github.com/ManuGale/kotlin-todo-cli.git](https://github.com/ManuGale/kotlin-todo-cli.git)
 cd kotlin-todo-cli
-```
 
-Abrir en VSCode:
 
 ```bash
-code .
-```
 
----
+# Compilar
 
-# Compilar proyecto
-
-```bash
 kotlinc src -include-runtime -d todo.jar
-```
+````
+
+# Ejecutar
+
+java -jar todo.jar
+
+````
 
 ---
 
@@ -208,7 +209,7 @@ kotlinc src -include-runtime -d todo.jar
 
 ```bash
 java -jar todo.jar
-```
+````
 
 ---
 
