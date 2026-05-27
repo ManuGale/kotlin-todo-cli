@@ -210,6 +210,7 @@ Cada integrante trabaja en una rama independiente:
 | EMILIO     | feature-documentacion-testing |
 | GABRIEL    | feature-modelo-tarea          |
 | RAYMUNDO   | feature-persistencia          |
+| MANUEL     | main                          |
 
 ---
 
