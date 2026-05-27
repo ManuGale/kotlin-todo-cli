@@ -208,11 +208,21 @@ Cada integrante trabaja en una rama independiente:
 | ---------- | ----------------------------- |
 | BUENDIA    | feature-crud-tareas           |
 | EMILIO     | feature-documentacion-testing |
-| GABO       | feature-modelo-tarea          |
-| RAY        | feature-persistencia          |
+| GABRIEL    | feature-modelo-tarea          |
+| RAYMUNDO   | feature-persistencia          |
 
 ---
 
 # Autor
 
 Proyecto realizado con fines académicos.
+
+```txt
+Integrantes del EQUIPO
+
+Buendia Vazquez Carlos
+Cetz Canul Gabriel Antonio
+Galeana Fernandez Manuel
+Loeza Muños Emilio
+Vela Gonzalez Raymundo De Jesus
+```
